@@ -4,9 +4,7 @@ var app = express();
 
 // Respond with an HTML page for requests that hit the root "/"
 app.get('/', function (req, res) {
-  res.send(`
-    <h1>Zal pan dakhvt nahi he?</h1>
-    `);
+  res.send('Zal pan dakhvt nahi he?');
 });
 
 // Listen to port 3000 by default
